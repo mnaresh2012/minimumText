@@ -6,8 +6,7 @@ minimumText [![GitHub version](http://img.shields.io/badge/version-0.0.1-brightg
 Hide specified number of character from the paragraph. When user will click the "readmore" or "continue" link. It will expand and user can see all the content.
 
 ###Dependencies - 
-jQuery - 
-We can achieve this functionality with native javascript as-well. But I did with jQuery. Because, Now a days everybody using jQuery.
+jQuery - We can achieve this functionality with Native javascript as-well. But I did with jQuery.
 
 ###Plugin Initialization -
 To activate the plugin follow the below format.
@@ -26,7 +25,7 @@ $('#main p').minimumText(450, {
 | Command  |Task Performed                  |
 | -------- | :------: | -------- | -------- |
 | linkText  | Append the text to the last of the paragraph.      |
-| mumberOfDots  | Number of dots want to show before the link text.      |
+| numberOfDots  | Number of dots want to show before the link text.      |
 | linkColor  | Link text active color.      |
 | hoverColor  | Link text's hover color.     |
 | countWhiteSpace  | Include the white-space character to the count.      |
