@@ -34,6 +34,7 @@ $('#main p').minimumText(450, {
 ###Contributing -
 Please feel free to contribute and edit as per your requirement.
 
-###Changelog -
+###Changelog & Licence -
 > 0.0.1: BETA version
+>MIT License
 
