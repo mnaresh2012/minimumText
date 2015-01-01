@@ -21,9 +21,9 @@ $('#main p').minimumText(450, {
 });
 ```
 ### Options (parameters) - 
-| Command  |Task Performed                |||
+| Command  |Task Performed                  |
 | -------- | :------: | -------- | -------- |
-| No span  | Span across three columns    |||
+| No span  | Span across three columns      |
 
 
 ###Contributing -
