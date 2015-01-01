@@ -1,7 +1,9 @@
-minimumText
+minimumText [![GitHub version](http://img.shields.io/badge/version-0.0.1-brightgreen.svg)](test)
 ===========
 
-Hide some content from the paragraph. When user will click the ''read more" or "continue" link. It will expand and user can see all the content.
+[![Node.js version](http://img.shields.io/badge/Node.js-%3E%200.10-brightgreen.svg)](foo) [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  [![License version](http://img.shields.io/badge/License-MIT-red.svg)](bar)
+
+Hide some content from the paragraph. When user will click the "readmore" or "continue" link. It will expand and user can see all the content.
 
 ###Dependencies - 
 jQuery - 
