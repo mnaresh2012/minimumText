@@ -8,7 +8,7 @@ Hide some content from the paragraph. When user will click the "readmore" or "co
 ###Dependencies - 
 jQuery - 
 We can achieve this functionality with native javascript as-well. But I did with jQuery. Because, Now a days everybody using jQuery.
-###Usage and Example -
+###Usage -
 For more details, follow the link - [mnaresh2012.github.io](http://mnaresh2012.github.io/index.html)
 ```
 To initialze the plugin -
@@ -20,9 +20,15 @@ $('#main p').minimumText(450, {
   'countWhiteSpace': false
 });
 ```
+### Options (parameters) - 
+| Column 1 | Column 2 | Column 3 | Column 4 |
+| -------- | :------: | -------- | -------- |
+| No span  | Span across three columns    |||
+
+
 ###Contributing -
 Please feel free to contribute and edit as per your requirement.
 
 ###Changelog -
-> 1.0.0: BETA version
+> 0.0.1: BETA version
 
