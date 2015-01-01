@@ -23,7 +23,11 @@ $('#main p').minimumText(450, {
 ### Options (parameters) - 
 | Command  |Task Performed                  |
 | -------- | :------: | -------- | -------- |
-| No span  | Span across three columns      |
+| "linkText"  | Append the text to the last of the paragraph.      |
+| "mumberOfDots"  | Number of dots want to show before the link text.      |
+| "linkColor"  | Link text active color.      |
+| "hoverColor"  | Link text's hover color.     |
+| "countWhiteSpace"  | include the white-space character to the count.      |
 
 
 ###Contributing -
