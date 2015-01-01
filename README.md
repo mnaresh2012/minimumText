@@ -36,5 +36,5 @@ Please feel free to contribute and edit as per your requirement.
 
 ###Changelog & Licence -
 > 0.0.1: BETA version
->MIT License
+> MIT License
 
