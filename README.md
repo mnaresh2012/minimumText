@@ -40,5 +40,5 @@ Please feel free to contribute and edit as per your requirement.
 ###Changelog -
 > 0.0.1: BETA version
 
-### Licence
-> The MIT License (MIT) [![License version](http://img.shields.io/badge/License-MIT-red.svg)]()
+### Licence [![License version](http://img.shields.io/badge/License-MIT-red.svg)]()
+> The MIT License (MIT)
