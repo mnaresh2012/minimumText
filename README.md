@@ -17,7 +17,7 @@ Work best with paragraph content.
 ```
 To initialze the plugin -
 $('#main p').minimumText(numOfChar, {
-  'linkText': 'readmore...',
+  'linkText': '...readmore',
   'linkColor': '#f00',
   'hoverColor': '#0f0',
   'countWhiteSpace': false (default)
@@ -27,7 +27,7 @@ $('#main p').minimumText(numOfChar, {
 ### Example -
 ```
 $('#myParagraph').minimumText(450, {
-  'linkText': 'viewmore...',
+  'linkText': '...viewmore',
   'linkColor' '#f00',
   'hoverColor': '#0f0',
   'countWhiteSpace': true
