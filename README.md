@@ -39,5 +39,3 @@ Please feel free to contribute and edit as per your requirement.
 
 ### Licence
 > The MIT License (MIT)
-
-Copyright (c) 2015 [mnaresh2012.github.io] (http://mnaresh2012.github.io/index.html)
