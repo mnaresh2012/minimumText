@@ -18,12 +18,22 @@ Work best with paragraph content.
 To initialze the plugin -
 $('#main p').minimumText(numOfChar, {
   'linkText': 'readmore',
-  'mumberOfDots': 3,
   'linkColor': '#f00',
   'hoverColor': '#0f0',
   'countWhiteSpace': false (default)
 });
 ```
+
+### Example
+```
+$('#myParagraph').minimumText(450, {
+  'linkText': 'viewmore',
+  'linkColor' '#f00',
+  'hoverColor': '#0f0',
+  'countWhiteSpace': true
+});
+```
+
 ### Options (parameters) - 
 | Command  |Task Performed                  |
 | -------- | :------: | -------- | -------- |
