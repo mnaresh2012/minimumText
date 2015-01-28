@@ -38,11 +38,10 @@ $('#myParagraph').minimumText(450, {
 | Command  |Task Performed                  |
 | -------- | :------: | -------- | -------- |
 | numOfChar | Number of character to show. |
-| linkText  | Append the text to the last of the paragraph.      |
-| numberOfDots  | Number of dots want to show before the link text.      |
-| linkColor  | Link text active color.      |
-| hoverColor  | Link text's hover color.     |
-| countWhiteSpace  | Include the white-space character to the count.      |
+| linkText  | Append the text to the last of the paragraph.|
+| linkColor  | Link text active color.|
+| hoverColor  | Link text's hover color.|
+| countWhiteSpace  | Include the white-space character to the count.|
 
 
 ###Contributing -
