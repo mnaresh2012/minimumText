@@ -24,7 +24,7 @@ $('#main p').minimumText(numOfChar, {
 });
 ```
 
-### Example
+### Example -
 ```
 $('#myParagraph').minimumText(450, {
   'linkText': 'viewmore',
