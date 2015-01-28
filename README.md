@@ -16,17 +16,18 @@ To activate the plugin follow the below format.
 Work best with paragraph content.
 ```
 To initialze the plugin -
-$('#main p').minimumText(450, {
+$('#main p').minimumText(numOfChar, {
   'linkText': 'readmore',
   'mumberOfDots': 3,
   'linkColor': '#f00',
   'hoverColor': '#0f0',
-  'countWhiteSpace': false
+  'countWhiteSpace': false (default)
 });
 ```
 ### Options (parameters) - 
 | Command  |Task Performed                  |
 | -------- | :------: | -------- | -------- |
+| numOfChar | Number of character to show. |
 | linkText  | Append the text to the last of the paragraph.      |
 | numberOfDots  | Number of dots want to show before the link text.      |
 | linkColor  | Link text active color.      |
