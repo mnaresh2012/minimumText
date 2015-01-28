@@ -1,7 +1,12 @@
 minimumText [![GitHub version](http://img.shields.io/badge/version-0.0.1-brightgreen.svg)]()
 ===========
 
-[![Node.js version](http://img.shields.io/badge/Node.js-%3E%200.10-brightgreen.svg)]() [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  [![License version](http://img.shields.io/badge/License-MIT-red.svg)]()
+<!---
+[![Node.js version](http://img.shields.io/badge/Node.js-%3E%200.10-brightgreen.svg)]() 
+[![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  
+-->
+
+[![License version](http://img.shields.io/badge/License-MIT-red.svg)]()
 
 Hide specified number of character from the paragraph. When user will click the "readmore" or "continue" link. It will expand and user can see all the content.
 
