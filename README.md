@@ -1,5 +1,4 @@
 minimumText [![GitHub version](http://img.shields.io/badge/version-0.0.1-brightgreen.svg)]()
-[![License version](http://img.shields.io/badge/License-MIT-red.svg)]()
 ===========
 
 <!---
@@ -42,4 +41,4 @@ Please feel free to contribute and edit as per your requirement.
 > 0.0.1: BETA version
 
 ### Licence
-> The MIT License (MIT)
+> The MIT License (MIT) [![License version](http://img.shields.io/badge/License-MIT-red.svg)]()
