@@ -1,1 +1,3 @@
-console.log('Foo');
+$.fn.minimumText = function () {
+  this.css('color', 'red');
+}
