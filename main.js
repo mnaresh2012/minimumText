@@ -1,1 +1,3 @@
-console.log('Bar');
+$('#paragraph').minimumText({
+  
+});
