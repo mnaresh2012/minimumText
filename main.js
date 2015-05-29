@@ -4,3 +4,4 @@ $('#paragraph').minimumText(450, {
   'hoverColor': '#0f0',
   'countWhiteSpace': true
 });
+console.log('hello.');
