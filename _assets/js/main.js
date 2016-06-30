@@ -1,8 +1,13 @@
 
-$('#paragraph').minimumText(450, {
-  'linkText': '...readmore',
-  'linkColor' '#f00',
-  'hoverColor': '#0f0',
-  'countWhiteSpace': true
+'use strict';
+
+$(function() {
+	//pugin initialization
+	$('.container').minimumText({
+		element: '.jumbotron p.description',
+		numsChar: 10,
+		url: 'www.google.com',
+		dots: '....',
+		str: 'view more'
+	});
 });
-console.log('hello.');
