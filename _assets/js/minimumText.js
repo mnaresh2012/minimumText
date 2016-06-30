@@ -1,9 +1,27 @@
-$.fn.minimumText = function () {
-   var elemOne = arguments[0],
-       elemTwo = arguments[1],
-       strLength = elemOne.length;
-    
-    if ($.type(arguments[0]) !== 'number') {
-        console.log('First argument should be Number.');
+/*!
+* NAME OF THE FILE (minimumText.js)
+* Logic for the minimumText
+* 
+* @project   minimumText
+* @date      030-06-2016
+* @author    mr.naresh kumar <mnaresh2010@aol.com>
+* @license  MIT
+*
+*/
+
+'use strict';
+
+;(function ($) {
+    $.fn.minimumText = function (obj) {
+        var el = $(obj.element),
+            content = $(el).html(),
+            charCount = obj.numsChar || 125,
+            link = obj.url || '',
+            dots = obj.dots || '...',
+            stringVal = obj.str || 'See More',
+            modifiedStr = content.substr(0, charCount) + dots + " " + "<a href=http://" + link + "><small>" + stringVal + "</small></a>";
+
+        $(el).html(modifiedStr);
+        return this;
     }
-}
+}(jQuery));
