@@ -6,42 +6,44 @@ minimumText [![GitHub version](http://img.shields.io/badge/version-0.0.1-brightg
 [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  
 -->
 
-Hide specified number of character from the paragraph. When user will click the "readmore" or "continue" link. It will expand and user can see all the content.
+Hide specified number of character from the paragraph. When user will click the "readmore" or "continue" link. It will redirect to the link or scroll to the scecify section.
 
-###Dependencies - 
-jQuery - We can achieve this functionality with Native javascript as-well. But I did with jQuery.
+###Dependencies -
+We can achieve this functionality with Native javascript as-well. But I did with jQuery.
 
 ###Plugin Initialization -
 To activate the plugin follow the below format.
 Work best with paragraph content.
 ```
 To initialze the plugin -
-$('#main p').minimumText(numOfChar, {
-  'linkText': '...readmore',
-  'linkColor': '#f00',
-  'hoverColor': '#0f0',
-  'countWhiteSpace': false (default)
+$('.container').minimumText({
+  element: '.jumbotron p.description',
+		'numsChar': 125,
+		'url': 'www.yourwebsite.com',
+		'dots': '....',
+		'str': 'read more'
 });
 ```
 
 ### Example -
 ```
-$('#myParagraph').minimumText(450, {
-  'linkText': '...viewmore',
-  'linkColor' '#f00',
-  'hoverColor': '#0f0',
-  'countWhiteSpace': true
+$('.container').minimumText({
+  element: '.jumbotron p.description',
+		'numsChar': 125,
+		'url': 'www.yourwebsite.com',
+		'dots': '....',
+		'str': 'read more'
 });
 ```
 
 ### Options (parameters) - 
 | Command  |Task Performed                  |
 | -------- | :------: | -------- | -------- |
-| numOfChar | Number of character to show. |
-| linkText  | Append the text to the last of the paragraph.|
-| linkColor  | Link text active color.|
-| hoverColor  | Link text's hover color.|
-| countWhiteSpace  | Include the white-space character to the count.|
+| element | Element Name. |
+| numsChar  | Number of character |
+| url  | link url |
+| dots  | Number of dots.|
+| str  | link string.|
 
 
 ###Contributing -
