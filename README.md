@@ -18,10 +18,10 @@ Work best with paragraph content.
 To initialze the plugin -
 $('.container').minimumText({
   element: '.jumbotron p.description',
-		'numsChar': 125,
-		'url': 'www.yourwebsite.com',
-		'dots': '....',
-		'str': 'read more'
+  'numsChar': 125,
+  'url': 'www.yourwebsite.com',
+  'dots': '....',
+  'str': 'read more'
 });
 ```
 
@@ -29,10 +29,10 @@ $('.container').minimumText({
 ```
 $('.container').minimumText({
   element: '.jumbotron p.description',
-		'numsChar': 125,
-		'url': 'www.yourwebsite.com',
-		'dots': '....',
-		'str': 'read more'
+  'numsChar': 125,
+  'url': 'www.yourwebsite.com',
+  'dots': '....',
+  'str': 'read more'
 });
 ```
 
